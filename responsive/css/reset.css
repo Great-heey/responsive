@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+/* reset.css 는 모든 문서에 포함될거니까 여기에 폰트를 import */
+
+html{ font-size: 24px; }
+body{ margin:0; 
+    font-family: 'Inter', sans-serif; 
+    color: #5E452D;
+}
+
+h1, h2, h3{font-family: 'Prociono', serif;}
+
+h1, h2, h3, p, figure{margin: 0;}
+
+ul, li{ margin: 0; padding: 0; list-style: none;}
+img{ vertical-align: middle; }
+a{ text-decoration: none; color: #5E452D; }
+*{ box-sizing: border-box; }
+
+.btn-view {
+    font-size: 32px;
+    text-decoration: underline;
+}
+/* 반복해서 사용이 필요한 이런 버튼 같은것들은 reset에 넣어주는게 편함 */
